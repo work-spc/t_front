@@ -5,6 +5,7 @@ import SetProfile from './SetProfile';
 import Test from './Test';
 import './Test.css';
 
+
 export const TestComponent = (add) => {
     const navigate = useNavigate()
     const data = [

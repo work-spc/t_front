@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Test.css'
 
 
+
 export const Test = ({func, data, count}) => {
     
     const [Quest,setQuest] = useState(data)
