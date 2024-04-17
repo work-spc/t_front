@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Test.css'
 
+
 export const SetProfile = ({func}) => {
 
     const [Age,setAge] = useState();

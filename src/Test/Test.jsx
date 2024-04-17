@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Test.css'
 
 
+
 export const Test = ({func, data, count}) => {
     
     const [Quest,setQuest] = useState(data)
@@ -70,7 +71,7 @@ export const Test = ({func, data, count}) => {
         {Quest[Count-1].answers.map((ans, index)=>(
             <div key={index} className={'test-answers-container'+(Selected === index ? ' test-answers-selected':'')}
             onClick={() => funcs(index)}>
-            {ans.answer}  {ans.point}
+            {ans.answer}
             </div>
             
         ))}    

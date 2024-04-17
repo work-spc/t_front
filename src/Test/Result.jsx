@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './Test.css';
 
+
 export const Result = (body) => {
     const [sum,setSum] = useState(0)
     const [IMT,setIMT] = useState(false);
@@ -48,7 +49,7 @@ export const Result = (body) => {
 
             })
 
-            axios.post('http://localhost:8080/profile/save',temp).then()
+            axios.post('http://213.226.126.183:8080/profile/save',temp).then()
         }
     effect();
 

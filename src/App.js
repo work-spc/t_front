@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './HomePage';
 import TestComponent from './Test/TestComponent';
 import Result from './Test/Result';
+import React from 'react';
 
 function App() {
   return (
